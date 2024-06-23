@@ -17,7 +17,7 @@ ol {
     list-style-type: none;
 }
 
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -27,7 +27,7 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
+.section-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -80,6 +80,7 @@ button {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -90,6 +91,10 @@ button {
 
 .team-section {
     background-color: #f4f4fd;
+}
+
+.section-item {
+    background-color: #ffffff;
 }
 
 .footer {
