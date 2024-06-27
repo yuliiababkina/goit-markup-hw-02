@@ -7,7 +7,10 @@
 
         <link
             rel="stylesheet"
-            href="https://cdnjs.com/libraries/modern-normalize"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,35 +21,37 @@
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
-                <a class="logo-icon" href="./index.html"
-                    >Web<span class="logo-acent">Studio</span></a
+        <header class="header">
+            <nav class="header-navbar">
+                <a class="logo-icon header-logo" href="./index.html"
+                    >Web<span class="logo-accent">Studio</span></a
                 >
-                <ul>
-                    <li>
-                        <a class="navbar-link" href="./index.html">Studio</a>
+                <ul class="header-navbar-list">
+                    <li class="header-navbar-item">
+                        <a class="header-navbar-link" href="./index.html"
+                            >Studio</a
+                        >
                     </li>
-                    <li>
-                        <a class="navbar-link" href="">Portfolio</a>
+                    <li class="header-navbar-item">
+                        <a class="header-navbar-link" href="">Portfolio</a>
                     </li>
-                    <li>
-                        <a class="navbar-link" href="">Contacts</a>
+                    <li class="header-navbar-item">
+                        <a class="header-navbar-link" href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
 
-            <address class="contact-list">
-                <ul>
-                    <li>
+            <address class="contacts">
+                <ul class="contacts-list">
+                    <li class="contacts-item">
                         <a
-                            class="contact-list-item"
+                            class="contacts-link"
                             href="mailto:info@devstudio.com"
                             >info@devstudio.com</a
                         >
                     </li>
-                    <li>
-                        <a class="contact-list-item" href="tel:+110001111111"
+                    <li class="header-contacts-item">
+                        <a class="contacts-link" href="tel:+110001111111"
                             >+11 (000) 111-11-11</a
                         >
                     </li>
@@ -64,32 +69,32 @@
 
             <section class="benefits-section">
                 <h2 class="section-title">Our benefits</h2>
-                <ul>
-                    <li>
-                        <h3 class="section-item-title">Strategy</h3>
-                        <p class="benefit-section-text">
+                <ul class="benefits-list">
+                    <li class="benefits-item">
+                        <h3 class="benefits-item-title">Strategy</h3>
+                        <p class="benefits-item-text">
                             Our goal is to identify the business problem to walk
                             away with the perfect and creative solution.
                         </p>
                     </li>
-                    <li>
-                        <h3 class="section-item-title">Punctuality</h3>
-                        <p class="benefit-section-text">
+                    <li class="benefits-item">
+                        <h3 class="benefits-item-title">Punctuality</h3>
+                        <p class="benefits-item-text">
                             Bring the key message to the brand's audience for
                             the best price within the shortest possible time.
                         </p>
                     </li>
-                    <li>
-                        <h3 class="section-item-title">Diligence</h3>
-                        <p class="benefit-section-text">
+                    <li class="benefits-item">
+                        <h3 class="benefits-item-title">Diligence</h3>
+                        <p class="benefits-item-text">
                             Research and confirm brands that present the
                             strongest digital growth opportunities and minimize
                             risk.
                         </p>
                     </li>
-                    <li>
-                        <h3 class="section-item-title">Technologies</h3>
-                        <p class="benefit-section-text">
+                    <li class="benefits-item">
+                        <h3 class="benefits-item-title">Technologies</h3>
+                        <p class="benefits-item-text">
                             Design practice focused on digital experiences. We
                             bring forth a deep passion for problem-solving.
                         </p>
@@ -99,110 +104,112 @@
 
             <section class="team-section">
                 <h2 class="section-title">Our Team</h2>
-                <ul>
-                    <li class="section-item">
+                <ul class="team-list">
+                    <li class="team-list-item">
                         <img
                             src="./images/man-photo-mark.jpg"
                             alt="man photo smiling"
                             width="264"
                         />
-                        <h3 class="section-item-title">Mark Guerrero</h3>
-                        <p class="team-section-text">Product Designer</p>
+                        <h3 class="team-item-title">Mark Guerrero</h3>
+                        <p class="team-item-text">Product Designer</p>
                     </li>
-                    <li class="section-item">
+                    <li class="team-list-item">
                         <img
                             src="./images/man-photo-tom.jpg"
                             alt="man photo smiling"
                             width="264"
                         />
-                        <h3 class="section-item-title">Tom Ford</h3>
-                        <p class="team-section-text">Frontend Developer</p>
+                        <h3 class="team-item-title">Tom Ford</h3>
+                        <p class="team-item-text">Frontend Developer</p>
                     </li>
-                    <li class="section-item">
+                    <li class="team-list-item">
                         <img
                             src="./images/woman-photo-camila.jpg"
                             alt="woman photo smiling"
                             width="264"
                         />
-                        <h3 class="section-item-title">Camila Garcia</h3>
-                        <p class="team-section-text">Marketing</p>
+                        <h3 class="team-item-title">Camila Garcia</h3>
+                        <p class="team-item-text">Marketing</p>
                     </li>
-                    <li class="section-item">
+                    <li class="team-list-item">
                         <img
                             src="./images/man-photo-daniel.jpg"
                             alt="man photo smiling"
                             width="264"
                         />
-                        <h3 class="section-item-title">Daniel Wilson</h3>
-                        <p class="team-section-text">UI Designer</p>
+                        <h3 class="team-item-title">Daniel Wilson</h3>
+                        <p class="team-item-text">UI Designer</p>
                     </li>
                 </ul>
             </section>
 
             <section class="portfolio-section">
                 <h2 class="section-title">Our Portfolio</h2>
-                <ul>
-                    <li>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-bank-app-screens.jpg"
                             alt="Screenshots from a banking app"
                             width="360"
                         />
-                        <h3 class="section-item-title">Banking App</h3>
-                        <p class="portfolio-section-text">App</p>
+                        <h3 class="portfolio-item-title">Banking App</h3>
+                        <p class="portfolio-item-text">App</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-cashless-payment.jpg"
                             alt="Cashless terminal and phone"
                             width="360"
                         />
-                        <h3 class="section-item-title">Cashless Payment</h3>
-                        <p class="portfolio-section-text">Marketing</p>
+                        <h3 class="portfolio-item-title">Cashless Payment</h3>
+                        <p class="portfolio-item-text">Marketing</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-laptop-and-phone.jpg"
                             alt="Laptop and phone screens"
                             width="360"
                         />
-                        <h3 class="section-item-title">Meditation App</h3>
-                        <p class="portfolio-section-text">App</p>
+                        <h3 class="portfolio-item-title">Meditation App</h3>
+                        <p class="portfolio-item-text">App</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-car-steering-wheel.jpg"
                             alt="Hands in black gloves hold a car steering wheel"
                             width="360"
                         />
-                        <h3 class="section-item-title">Taxi Service</h3>
-                        <p class="portfolio-section-text">Marketing</p>
+                        <h3 class="portfolio-item-title">Taxi Service</h3>
+                        <p class="portfolio-item-text">Marketing</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-phone-screens.jpg"
                             alt="Phone screen and wallpapers"
                             width="360"
                         />
-                        <h3 class="section-item-title">Screen Illustrations</h3>
-                        <p class="portfolio-section-text">Design</p>
+                        <h3 class="portfolio-item-title">
+                            Screen Illustrations
+                        </h3>
+                        <p class="portfolio-item-text">Design</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img
                             src="./images/img-young-girl-with-headset.jpg"
                             alt="Young girl look at a phone screen and listen music"
                             width="360"
                         />
-                        <h3 class="section-item-title">Online Courses</h3>
-                        <p class="portfolio-section-text">Marketing</p>
+                        <h3 class="portfolio-item-title">Online Courses</h3>
+                        <p class="portfolio-item-text">Marketing</p>
                     </li>
                 </ul>
             </section>
         </main>
 
         <footer class="footer">
-            <a class="footer-logo-icon" href="./index.html"
-                >Web<span class="footer-logo-acent">Studio</span></a
+            <a class="logo-icon footer-logo" href="./index.html"
+                >Web<span class="logo-accent">Studio</span></a
             >
 
             <p class="footer-text">
